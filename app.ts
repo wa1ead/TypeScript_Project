@@ -21,3 +21,7 @@ class Car implements Vehicle {
     console.log("Car Engine Started");
   }
 }
+
+//Create an instance of the Car class and initialize it with some values for make, model, and year
+const car = new Car('Porsche', 'cayan', 2020);
+car.start()
